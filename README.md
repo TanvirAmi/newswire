@@ -1,2 +1,2 @@
 # newswire
-Custom wordpress theme for Diep
+Custom WordPress theme for Mr.Diep
