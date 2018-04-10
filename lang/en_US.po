@@ -1,0 +1,475 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newswire 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-05 12:01+0700\n"
+"PO-Revision-Date: 2015-09-05 12:01+0700\n"
+"Last-Translator: Eric Gunawan <eric@theme-junkie.com>\n"
+"Language-Team: Theme Junkie <support@theme-junkie.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:5
+msgid "Error 404"
+msgstr ""
+
+#: ../404.php:8
+msgid ""
+"The page you've requested <strong>can not be displayed</strong>. It appears "
+"you've missed your intended destination, either through a bad or outdated "
+"link, or a typo in the page you were hoping to reach."
+msgstr ""
+
+#: ../archive.php:18 ../search.php:18
+msgid "Newer Entries"
+msgstr ""
+
+#: ../archive.php:19 ../search.php:19
+msgid "Older Entries"
+msgstr ""
+
+#: ../comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:29
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:29
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:29 ../single.php:14 ../includes/custom-functions.php:273
+#: ../includes/custom-functions.php:293 ../includes/home-featured.php:17
+#: ../includes/home-featured.php:46 ../includes/home-loop.php:37
+#: ../includes/loop.php:6 ../includes/widgets/widget-category-posts.php:89
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:41
+msgid "Trackbacks"
+msgstr ""
+
+#: ../comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:77
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:78
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:82
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: ../comments.php:83
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:84
+msgid "Submit Comment"
+msgstr ""
+
+#: ../footer.php:7 ../header.php:35 ../functions/theme_functions.php:101
+#: ../includes/breadcrumbs.php:4
+msgid "Home"
+msgstr ""
+
+#: ../page.php:15 ../page-templates/template-fullwidth.php:15
+msgid "Edit"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: ../single.php:14 ../includes/custom-functions.php:273
+#: ../includes/custom-functions.php:293 ../includes/home-featured.php:17
+#: ../includes/home-featured.php:46 ../includes/home-loop.php:37
+#: ../includes/loop.php:6 ../includes/widgets/widget-category-posts.php:89
+msgid "0 Comment"
+msgstr ""
+
+#: ../single.php:14 ../includes/custom-functions.php:273
+#: ../includes/custom-functions.php:293 ../includes/home-featured.php:17
+#: ../includes/home-featured.php:46 ../includes/home-loop.php:37
+#: ../includes/loop.php:6 ../includes/widgets/widget-category-posts.php:89
+msgid "1 Comment"
+msgstr ""
+
+#: ../single.php:19
+msgid "Pages:"
+msgstr ""
+
+#: ../single.php:21
+msgid "<div class=\"entry-tags\"><span>Tags:</span>"
+msgstr ""
+
+#: ../single.php:67
+msgid "About"
+msgstr ""
+
+#: ../single.php:70
+msgid "View all posts by "
+msgstr ""
+
+#: ../functions/shortcodes/tinymce/window_page.php:6
+#: ../functions/shortcodes/tinymce/window_post.php:6
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: ../functions/shortcodes/tinymce/window_page.php:42
+#: ../functions/shortcodes/tinymce/window_post.php:42
+msgid "Select Shortcodes"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:6
+msgid "Posts Tagged &quot;"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:8 ../includes/breadcrumbs.php:10
+#: ../includes/breadcrumbs.php:12
+msgid "Posts made in"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:14
+msgid "Search results for"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:22 ../includes/home-loop.php:20
+#: ../includes/home-loop.php:22
+#, php-format
+msgid "Subscribe to %s"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:22
+msgid "Subscribe"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:26
+msgid "Posts by "
+msgstr ""
+
+#: ../includes/custom-functions.php:27
+msgid "Primary Nav"
+msgstr ""
+
+#: ../includes/custom-functions.php:28
+msgid "Secondary Nav"
+msgstr ""
+
+#: ../includes/custom-functions.php:127
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../includes/custom-functions.php:130
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/custom-functions.php:130
+msgid "(Edit)"
+msgstr ""
+
+#: ../includes/custom-functions.php:133
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/custom-functions.php:265
+msgid "Related Posts"
+msgstr ""
+
+#: ../includes/custom-functions.php:283
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/home-loop.php:45
+msgid "More"
+msgstr ""
+
+#: ../includes/not-found.php:3
+msgid "No standard web pages containing all your search terms were found."
+msgstr ""
+
+#: ../includes/not-found.php:4
+msgid "Your search"
+msgstr ""
+
+#: ../includes/not-found.php:4
+msgid "did not match any documents."
+msgstr ""
+
+#: ../includes/not-found.php:5
+msgid "Suggestions"
+msgstr ""
+
+#: ../includes/not-found.php:7
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: ../includes/not-found.php:8
+msgid "Try different keywords."
+msgstr ""
+
+#: ../includes/not-found.php:9
+msgid "Try more general keywords."
+msgstr ""
+
+#: ../includes/sidebar-init.php:7 ../includes/sidebar-init.php:9
+msgid "Sidebar"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:10
+msgid "ThemeJunkie - Advertisement"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:55
+#: ../includes/widgets/widget-twitter.php:41
+msgid "Title (optional):"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:59
+msgid "Ad Code:"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:64
+msgid "Image Url:"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:68
+msgid "Link URL:"
+msgstr ""
+
+#: ../includes/widgets/widget-ads.php:72
+msgid "Alt text:"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:121
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:128
+msgid "Category"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:135
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:142
+msgid "Sort by"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:158
+msgid "Reverse sort order (ascending)"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:165
+msgid "Make widget title link"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:172
+msgid "Show post excerpt"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:179
+msgid "Show post meta (date & comment)"
+msgstr ""
+
+#: ../includes/widgets/widget-category-posts.php:187
+msgid "Show post thumbnail"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:10
+msgid "ThemeJunkie - Flickr"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:23
+msgid "Photos on Flickr"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:46
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:50
+msgid "Number:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:58
+msgid "Type:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:60
+msgid "User"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:61
+msgid "Group"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:65
+msgid "Sorting:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:67
+msgid "Latest"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:68
+msgid "Random"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:72
+msgid "Size:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:74
+msgid "Square"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:75
+msgid "Medium"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:76
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:9
+msgid "Display Social Profiles"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:11
+msgid "ThemeJunkie - Social Profiles"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:25
+msgid "RSS"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:26
+msgid "GooglePlus"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:27
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:28
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:36
+msgid "E-mail Newsletter"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:37
+msgid ""
+"Sign up now to receive breaking news and to hear what's new with our website!"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:40
+msgid "Enter Your E-mail"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:71
+msgid "Enter your Feedburner ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:74
+msgid "Enter your Twitter ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:76
+msgid "Enter your Facebook ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-social.php:78
+msgid "Enter your Google Plus ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:9
+msgid "ThemeJunkie - Twitter Stream"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:45
+msgid "Username:"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:49
+msgid "Limit:"
+msgstr ""
+
+#: ../page-templates/template-archives.php:12
+msgid "The Latest 30 Posts"
+msgstr ""
+
+#: ../page-templates/template-archives.php:16
+#: ../page-templates/template-sitemap.php:51
+msgid "Comments"
+msgstr ""
+
+#: ../page-templates/template-archives.php:21
+#: ../page-templates/template-sitemap.php:28
+msgid "Categories"
+msgstr ""
+
+#: ../page-templates/template-archives.php:27
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../page-templates/template-contact.php:63
+msgid "Thanks, your email was sent successfully. "
+msgstr ""
+
+#: ../page-templates/template-contact.php:69
+msgid "Sorry, error occurred."
+msgstr ""
+
+#: ../page-templates/template-contact.php:74
+msgid "Name:"
+msgstr ""
+
+#: ../page-templates/template-contact.php:81
+msgid "Email:"
+msgstr ""
+
+#: ../page-templates/template-contact.php:88
+msgid "Message:"
+msgstr ""
+
+#: ../page-templates/template-contact.php:97
+msgid "Send Email"
+msgstr ""
+
+#: ../page-templates/template-sitemap.php:20
+msgid "Pages"
+msgstr ""
+
+#: ../page-templates/template-sitemap.php:37
+msgid "Posts per category"
+msgstr ""

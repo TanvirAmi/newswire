@@ -1,0 +1,4 @@
+*** Admin Panel Changelog ***
+
+2013.07.05
+ * /functions/theme_functions.php - wp_debug (line 4 and 146)

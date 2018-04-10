@@ -1,0 +1,53 @@
+*** Newswire Changelog ***
+
+2015.10.27 - version 2.1.1
+ * Fix Save Options preloader
+   functions/js/functions-init.js
+
+2015.09.04 - version 2.1
+ * Replace widget constructor
+ * Fix Theme Options default value
+ * Fix text domain
+ * Remove deprecated functions
+ * Support WordPress 4.3+
+
+2013.06.20 - version 2.0.1
+ * widget-category-posts.php - fixed layout bug 
+
+2013.03.31 - version 2.0
+ * Completely code rewritten (All files updated)
+ * Fully Responsive Layout & Mobile Ready
+ * A brand new Theme Options Panel
+ * 3 Color Schemas (Green, Blue and Red)
+ * Added Social Share function on posts (Retweet, Facebook Like and Google +1 buttons)
+ * Added Custom Widgets (Category Posts, Video, Twitter, Flickr, Social Icons, Email Subscription, Adsense widgets, etc.)
+ * Added Shortcodes
+ * Added Page Templates (Archives, Contact Form, Redirect, Sitemap)
+ * Added Related Posts on single posts
+ * Added WP Featured Image option
+ * Removed TimThumb Image Resizing
+ * And much more...
+
+2011.08.19 - version 1.3.2 
+ * includes/timthumb.php - updated timthumb to the latest version (v2.8)
+
+2011.02.24 - version 1.3.1
+ * includes/theme-options.php - fixed a bug for WP 3.1 compatibility
+
+2010.11.08 - version 1.3
+ * tons of changes which impacted all files
+
+2009.12.20 - version 1.2
+ * content-right.php - fixed a bug of postbox #5
+ * functions.php - enhanced the thumbnail function
+
+2010.11.20 - version 1.1
+ * functions.php - added an option for using custom field to output thumbnails
+ * page.php - page title customization
+ * full-page.php -	page title customization
+ * links.php -	page title customization
+ * archives.php - page title customization
+ * style.css - page title customization
+
+2009.10.01 - version 1.0
+ * First release!

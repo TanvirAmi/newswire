@@ -1,0 +1,40 @@
+a,
+a:visited, 
+a:hover, 
+#site-title a, 
+#site-title a:hover, 
+.bottom-box h3 a,
+.bottom-box ul li a:hover,
+.entry-content a, 
+.page-template-page-templatestemplate-archives-php .entry-content ul li a,
+.page-template-page-templatestemplate-sitemap-php .entry-content ul li a,
+#sidebar .widget ul li a:hover {
+	color: #008800;
+}
+#primary-nav .nav li a:hover,
+#primary-nav .nav li.first a,
+#primary-nav .nav li.sfHover a,
+#primary-nav .nav li li a:hover,
+#primary-nav .current_page_item a,
+.category-box-title a, 
+.category-box-title a:hover {
+	background: #008800;
+}
+#secondary-nav .nav,
+#featured-content,
+.two-column-boxes, 
+.entry-related h3,
+.widget-title,
+.widget_tj_twitter a .widget-title {
+	border-bottom: 3px solid #008800;
+}
+#primary-nav .nav li li a:hover,
+#secondary-nav .nav li li a:hover,
+.widget_tj_twitter li .content a,
+.widget_tj_category_posts .entry-title a:hover,
+.entry-title a:hover,
+.entry-content a:hover,
+.entry-meta a:hover,
+.entry-tags a:hover {
+	color: #008800 !important;
+}
