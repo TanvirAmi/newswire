@@ -23,6 +23,12 @@
 		        echo '</ul>';
 		?>
 		</div>
+
+		<center>
+			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('archive-sidebar') ) :?>
+			<?php endif; ?>
+		</center>
+
 		<?php
 		$arg = array(
 			'order'   => 'ASC',
