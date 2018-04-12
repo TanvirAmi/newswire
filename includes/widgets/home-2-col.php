@@ -69,9 +69,9 @@ class Home_Loop extends WP_Widget{
                 global $post;
                 if($postcount == 0 ) {  ?>
                     <li class="first clear">
-                        <h2 class="entry-title">
+                        <h1 class="entry-title">
                             <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'themejunkie' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-                        </h2>
+                        </h1>
                         
                         <div class="entry-meta">
                         <?php the_time('M jS, Y') ?> &middot; <?php comments_popup_link( __( '0 Comment', 'themejunkie' ), __( '1 Comment', 'themejunkie' ), __( '% Comments', 'themejunkie' ) ); ?>
@@ -150,9 +150,9 @@ class Home_Loop extends WP_Widget{
                 global $post;
                 if($postcount == 0 ) {  ?>
                     <li class="first clear">
-                        <h2 class="entry-title">
+                        <h1 class="entry-title">
                             <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'themejunkie' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-                        </h2>
+                        </h1>
                         
                         <div class="entry-meta">
                         <?php the_time('M jS, Y') ?> &middot; <?php comments_popup_link( __( '0 Comment', 'themejunkie' ), __( '1 Comment', 'themejunkie' ), __( '% Comments', 'themejunkie' ) ); ?>
