@@ -25,8 +25,7 @@
 		</div>
 
 		<center>
-			<?php if ( !function_exists( 'dynamic_sidebar' ) || !dynamic_sidebar('archive-sidebar') ) :?>
-			<?php endif; ?>
+			<?php the_archive_description(); ?>
 		</center>
 
 		<?php
