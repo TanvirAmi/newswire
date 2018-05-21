@@ -40,4 +40,5 @@ function wpse_ad_content($content)
 
     return $new_content;
 }
+
 ?>
