@@ -8,6 +8,9 @@ Add your custom styles in this file instead of style.css so it
 is easier to update the theme. Simply copy an existing style 
 from style.css to this file, and modify it to your liking. */
 
+#primary-nav {
+    background: #008800;
+}
 @media only screen and (max-width: 959px) {
   #header {height: auto;}
   .header-ad {display: block; float: left; width: 100%; height: auto; margin: 30px 0;}
@@ -122,4 +125,22 @@ a img {
 }
 .bottom-box {
     width: 412px;
+}
+@media only screen and (max-width: 479px) {
+    .bottom-box {
+        width: 100% !important;
+    }
+    #wrapper {
+        width: 85% !important;
+    }
+	#featured-content, .featured-right, .category-box-row	.two-column-boxes, .bottom-col-boxes {
+        width: 100% !important;
+    }
+	#main, #content {
+    width: 100% !important;
+		max-width: 355px;
+	}
+	.featured-left {
+    width: 345px;
+	}
 }
