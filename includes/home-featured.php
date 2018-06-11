@@ -3,23 +3,19 @@
 	<div class="featured-left">
     		<?php						
 			query_posts( array(
-				'showposts' => 1,
+				'showposts' => 4,
 				'tag' => get_option('newswire_featured_post_tags'),
 			) );
 			if( have_posts() ) : while( have_posts() ) : the_post();
 		?>
     	
-    		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('large-thumb', array('class' => 'entry-thumb')); ?></a>
-	    		
-    		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-
-  			<div class="entry-meta">
+	 		     			
+			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+				
+			<div class="entry-meta">
   				<span class="entry-date"><?php the_time('M jS, Y') ?></span><span class="entry-comment"> &middot; <?php comments_popup_link( __( '0 Comment', 'themejunkie' ), __( '1 Comment', 'themejunkie' ), __( '% Comments', 'themejunkie' ) ); ?></span>
-  			</div><!-- .entry-meta -->    		
-    		
-    		<div class="entry-excerpt">
-    			<?php tj_content_limit(get_option('newswire_left_featured_char_num','themejunkie')); ?>
-    		</div><!-- .entry-excerpt -->
+			</div><!-- .entry-meta -->
+				
     	<?php endwhile; endif; wp_reset_query(); ?>
     	
   	</div><!-- .featured-left -->
@@ -30,7 +26,7 @@
 			$post_count = 1;		                
 	         query_posts( array(
                  'showposts' => get_option('newswire_featured_post_num'),
-                 'offset' => 1,
+                 'offset' => 4,
                  'tag' => get_option('newswire_featured_post_tags'),
 	         ) );
 	         if( have_posts() ) : while( have_posts() ) : the_post();
